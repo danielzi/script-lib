@@ -41,9 +41,6 @@ sudo ufw allow 'Nginx Full'
 # 安装 Certbot（自动确认）
 sudo apt install -y certbot python3-certbot-nginx
 
-# 提示用户输入电子邮件地址
-read -p "请输入你的电子邮件地址 (用于接收 Certbot 通知): " EMAIL
-
 # 获取并安装 SSL 证书（自动确认）
 sudo certbot --nginx -d $DOMAIN --non-interactive --agree-tos --email test@qq.com
 
