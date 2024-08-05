@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 提示用户输入域名和反向代理的IP地址和端口
-read -p "请输入域名 (例如: mp.838333.xyz): " DOMAIN
-read -p "请输入反向代理的IP地址和端口 (例如: 31.220.42.212:3000): " PROXY_PASS
+read -p "请输入域名 (例如: www.qq.com): " DOMAIN
+read -p "请输入反向代理的IP地址和端口 (例如: 127.0.0.1:3000): " PROXY_PASS
 
 # 更新系统包
 sudo apt update
