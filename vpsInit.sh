@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 更新系统并安装常用软件包
-apt update -y && apt install wget sudo systemd-timesyncd vim screen ufw curl zip git zsh htop -y
+apt update -y && apt install wget sudo systemd-timesyncd vim screen ufw curl zip git htop -y
 
 # 设置命令历史记录的时间格式
 echo 'export HISTTIMEFORMATT "' >> ~/.bashrc && source ~/.bashrc
